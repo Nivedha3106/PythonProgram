@@ -3,20 +3,6 @@
 # n = int(input("Enter a number: "))
 # print ("cube root of,",n, "is :", n ** (1/3))
 
-# num = int(input())
-# guess, step, diff = 0,0,0
-# while(abs((guess**3)-num) > 0.01):
-#     diff = abs((guess**3)-num)
-
-#     if (diff < num):
-#         step += 1
-#         guess += step
-#     else:
-#         step -= 1
-#         guess -= step
-            
-# print("The cuberoot of the given number is",guess)
-
 
 cube = int(input())
 epsilon =0.1
